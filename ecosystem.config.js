@@ -3,7 +3,7 @@
 module.exports = {
   apps: [
     {
-      name: "corradUI",
+      name: "AIDevX Prototype",
       exec_mode: "cluster",
       instances: "max",
       script: "./.output/server/index.mjs",

@@ -1,6 +1,6 @@
 <script setup>
 useHead({
-  title: "corradUI - NuxtJS Admin Dashboard Template",
+  title: "AIDevX Prototype",
   description: "Home page",
   htmlAttrs: {
     lang: "en",
