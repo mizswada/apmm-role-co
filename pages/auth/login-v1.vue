@@ -3,6 +3,12 @@ definePageMeta({
   title: "login-v1",
   layout: "empty",
 });
+import { useRouter } from 'vue-router'
+const router = useRouter()
+function handleSignIn() {
+  // Here you would normally handle authentication
+  router.push('/dashboard')
+}
 </script>
 
 <template>
@@ -32,9 +38,7 @@ definePageMeta({
               to="/auth/forgot-password-v1"
               >Forgot Password?</NuxtLink
             >
-            <NuxtLink to="/" class="col-span-2">
-              <FormKit type="button" input-class="w-full"> Sign In </FormKit>
-            </NuxtLink>
+            <FormKit type="button" input-class="w-full col-span-2" @click="handleSignIn"> Sign In </FormKit>
             <rs-button
               class="w-full col-span-2 !bg-[rgb(var(--bg-1))] !text-inherit shadow-md"
             >

@@ -3,270 +3,346 @@ export default [
     child: [
       {
         title: "Dashboard",
-        path: "/dashboard",
+        path: "/new/dashboard",
         icon: "ic:outline-dashboard",
         child: [],
       },
     ],
   },
   {
-    header: "Apps & Pages",
-    description: "Wonderful apps",
+    header: "PENGURUSAN MAKLUMAT DAN PEMBAIKAN VESEL",
     child: [
+      // {
+      //   title: "Pendaftaran Vesel",
+      //   path: "/new/pendaftaran-vesel",
+      //   icon: "uil:ship",
+      //   child: [],
+      // },
       {
-        title: "Pages",
-        icon: "ic:outline-insert-drive-file",
-        child: [
+        title: "Pembaikan Vesel",
+        icon: "pajamas:issue-type-maintenance",
+        child: [         
           {
-            title: "Authentication",
-            child: [
-              {
-                title: "Login V1",
-                path: "/auth/login-v1",
-              },
-              {
-                title: "Login V2",
-                path: "/auth/login-v2",
-              },
-              {
-                title: "Register V1",
-                path: "/auth/register-v1",
-              },
-              {
-                title: "Register V2",
-                path: "/auth/register-v2",
-              },
-              {
-                title: "Forgot Password V1",
-                path: "/auth/forgot-password-v1",
-              },
-              {
-                title: "Forgot Password V2",
-                path: "/auth/forgot-password-v2",
-              },
-              {
-                title: "Reset Password V1",
-                path: "/auth/reset-password-v1",
-              },
-              {
-                title: "Reset Password V2",
-                path: "/auth/reset-password-v2",
-              },
-            ],
+            title: "Corrective Maintenance",
+            path: "/new/pembaikan-vesel/kad-kerja",
           },
           {
-            title: "Error 404",
-            path: "/error/404",
+            title: "PM/REFIT/AD/AMP/SLEP",
+            path: "/new/pembaikan-vesel/pms",
           },
           {
-            title: "Error 500",
-            path: "/error/500",
+            title: "Cannibalize",
+            icon: "ri:ship-line",
+            path: "/new/pembaikan-vesel/cannibalize",
           },
+          {
+            title: "Rupacara Aset",
+            icon: "ri:ship-line",
+            path: "/new/pembaikan-vesel/rupacara-aset",
+          },
+          {
+            title: "Return of Vessel Availability",
+            icon: "ri:ship-line",
+            path: "/new/pembaikan-vesel/rova",
+          },
+          {
+            title: "Planning Maintenance Schedule",
+            icon: "ri:ship-line",
+            path: "/new/pembaikan-vesel/pms",
+          },
+          
         ],
       },
       {
-        title: "E-commerce",
-        icon: "ic:outline-shopping-bag",
-        child: [
-          {
-            title: "Products",
-            path: "/apps/ecommerce/products",
-          },
-          {
-            title: "Product Detail",
-            path: "/apps/ecommerce/product-detail?sku=P-1001",
-          },
-          {
-            title: "Checkout",
-            path: "/apps/ecommerce/checkout",
-          },
-        ],
+        title: "Profil Vesel",
+        icon: "ri:ship-line",
+        path: "/new/lihatVesel/1",
+        
       },
     ],
   },
   {
-    header: "UI Elements",
-    description: "Component for the ui",
+    header: "PENGURUSAN MAKLUMAT KREW TEKNIKAL",
     child: [
       {
-        title: "Typography",
-        path: "/ui/typography",
-        icon: "ic:outline-alternate-email",
+        title: "Maklumat Krew",
+        path: "/new/data-kru",
+        icon: "healthicons:domestic-worker",       
       },
       {
-        title: "Colors",
-        path: "/ui/colors",
-        icon: "ic:outline-water-drop",
+        title: "Permohonan Latihan",
+        path: "/new/permohonan-latihan",
+        icon: "streamline:interface-user-check-actions-close-checkmark-check-geometric-human-person-single-success-up-user",       
       },
-      {
-        title: "Icon",
-        icon: "ic:outline-flag-circle",
-        child: [
-          {
-            title: "Nuxt Icons",
-            path: "/ui/icon/nuxt-icon",
-          },
-        ],
-      },
-      {
-        title: "Component",
-        icon: "ic:outline-settings-input-component",
-        child: [
-          {
-            title: "Alert",
-            path: "/ui/component/alert",
-          },
-          {
-            title: "Badges",
-            path: "/ui/component/badges",
-          },
-          {
-            title: "Buttons",
-            path: "/ui/component/buttons",
-          },
-          {
-            title: "Card",
-            path: "/ui/component/card",
-          },
-          {
-            title: "Calendar",
-            path: "/ui/component/calendar",
-          },
-          {
-            title: "Carousel",
-            path: "/ui/component/carousel",
-          },
-          {
-            title: "Collapse",
-            path: "/ui/component/collapse",
-          },
-          {
-            title: "Dropdown",
-            path: "/ui/component/dropdown",
-          },
-          {
-            title: "Modal",
-            path: "/ui/component/modal",
-          },
-          {
-            title: "Tab",
-            path: "/ui/component/tab",
-          },
-          {
-            title: "Progress",
-            path: "/ui/component/progress",
-          },
-        ],
-      },
-      {
-        title: "Chart",
-        icon: "ic:outline-pie-chart",
-        child: [
-          {
-            title: "Apex Chart",
-            path: "/ui/chart/apex-chart",
-          },
-          {
-            title: "Chartjs",
-            path: "/ui/chart/chartjs",
-          },
-        ],
-      },
+      
     ],
   },
   {
-    header: "Forms & Tables",
-    description: "Form and table component",
+    header: "PENGURUSAN VENDOR",
     child: [
       {
-        title: "Form",
-        icon: "ic:outline-menu-book",
-        child: [
-          {
-            title: "Element",
-            child: [
-              {
-                title: "Input",
-                path: "/form/element/input",
-              },
-              {
-                title: "Input Group",
-                path: "/form/element/input-group",
-              },
-              {
-                title: "Input Mask",
-                path: "/form/element/input-mask",
-              },
-              {
-                title: "Textarea",
-                path: "/form/element/textarea",
-              },
-              {
-                title: "Number",
-                path: "/form/element/number",
-              },
-              {
-                title: "Password",
-                path: "/form/element/password",
-              },
-              {
-                title: "Date & Time",
-                path: "/form/element/date-time",
-              },
-              {
-                title: "Radio",
-                path: "/form/element/radio",
-              },
-              {
-                title: "Checkbox",
-                path: "/form/element/checkbox",
-              },
-              {
-                title: "Select",
-                path: "/form/element/select",
-              },
-              {
-                title: "File",
-                path: "/form/element/file",
-              },
-              {
-                title: "Custom",
-                path: "/form/element/custom",
-              },
-              {
-                title: "VCalendar",
-                path: "/form/element/vcalendar",
-              },
-              {
-                title: "Vue Select",
-                path: "/form/element/vue-select",
-              },
-              {
-                title: "Vue Quill",
-                path: "/form/element/vue-quill",
-              },
-            ],
-          },
-          {
-            title: "Wizard",
-            path: "/form/wizard",
-          },
-        ],
+        title: "Data vendor",
+        path: "/new/data-vendor",
+        icon: "material-symbols-light:article-person-outline",       
       },
       {
-        title: "Table",
-        icon: "ic:outline-grid-on",
-        child: [
-          {
-            title: "Basic",
-            path: "/table/basic",
-          },
-          {
-            title: "Advanced",
-            path: "/table/advanced",
-          },
-        ],
+        title: "Pengurusan Kontrak",
+        path: "/new/pengurusan-kontrak",
+        icon: "material-symbols-light:lab-profile-outline-sharp",       
       },
     ],
   },
+  // {
+  //   header: "PENGURUSAN PENGGUNA DAN SISTEM",
+  //   child: [
+  //     {
+  //       title: "Pengurusan Pengguna",
+  //       icon: "pajamas:issue-type-maintenance",
+  //       child: [
+  //         {
+  //           title: "Peranan",
+  //           path: "/new/tetapan-peranan",     
+  //         },
+  //         {
+  //           title: "Pengguna",
+  //           path: "/new/tetapan-pengguna",     
+  //         },
+  //       ]     
+  //     },
+  //     {
+  //       title: "Pengurusan Sistem",
+  //       icon: "pajamas:issue-type-maintenance",
+  //       child: [
+  //         {
+  //           title: "Audit trail",
+  //           path: "/new/tetapan-audit-trail",     
+  //         },
+  //         {
+  //           title: "SMTP",
+  //           path: "/new/tetapan-smtp",     
+  //         },
+  //         {
+  //           title: "Pangkalan Data",
+  //           path: "/new/tetapan-pengakalan-data",     
+  //         },
+  //         {
+  //           title: "Integrasi Sistem Luar",
+  //           path: "/new/tetapan-integrasi-sistem-luar",     
+  //         },
+  //       ]     
+  //     },
+  //     {
+  //       title: "Pengurusan Data",
+  //       path: "/new/pengurusan-data",
+  //       icon: "pajamas:issue-type-maintenance",       
+  //     }, 
+      
+  //   ],
+  // },
+
+  // {
+  //   header: "",
+  //   description: "",
+  //   child: [
+  //     {
+  //       title: "Laman Utama",
+  //       path: "/dashboard",
+  //       icon: "ic:outline-dashboard",
+  //       child: [],
+  //     },
+  //     // {
+  //     //   title: "Kad Kerja",
+  //     //   path: "/kad-kerja",
+  //     //   icon: "lineicons:ship-1",
+  //     //   child:[
+  //     //     {
+  //     //         title: "Tambah Kad Kerja",
+  //     //         path: "",
+  //     //         icon: "lineicons:ship-1",
+  //     //       },
+  //     //       {
+  //     //         title: "Semak Kad Kerja",
+  //     //         path: "",
+  //     //         icon: "lineicons:ship-1",
+  //     //       },
+  //     //       {
+  //     //         title: "Lulus Kad Kerja",
+  //     //         path: "",
+  //     //         icon: "lineicons:ship-1",
+  //     //       },
+  //     //   ]
+  //     // },
+  //     {
+  //       title: "Vessel",
+  //       path: "/kapal",
+  //       icon: "lineicons:ship-1",
+  //       child: [
+  //         {
+  //           title: "Tambah Vessel Baru",
+  //           path: "/kapal/add",
+  //           icon: "lineicons:ship-1",
+  //         },
+  //         {
+  //           title: "Senarai Vessel",
+  //           path: "/kapal",
+  //           icon: "lineicons:ship-1",
+  //         },
+  //       ]
+  //     },
+     
+  //     // {
+  //     //   "title": "Pengurusan Aset",
+  //     //   "icon": "ix:report-general",
+  //     //   "child": [
+  //     //     // {
+  //     //     //   title: "Kad Kerja",
+  //     //     //   path: "/kad-kerja",
+  //     //     //   icon: "lineicons:ship-1",
+  //     //     // },
+  //     //     // {
+  //     //     //   title: "Kapal",
+  //     //     //   path: "/kapal",
+  //     //     //   icon: "lineicons:ship-1",
+  //     //     // },
+  //     //     // {        
+  //     //     //   title: "Bot",
+  //     //     //   path: "/bot",
+  //     //     //   icon: "tabler:speedboat",
+  //     //     // },
+  //     //     // {
+  //     //     //   title: "Senarai Alat Ganti (OSL)",
+  //     //     //   path: "/komponen-ship",
+  //     //     //   icon: "material-symbols:settings-input-component-outline"
+  //     //     // },
+  //     //     // {
+  //     //     //   title: "Krew",
+  //     //     //   path: "/krew",
+  //     //     //   icon: "tabler:users-group"
+  //     //     // },
+  //     //     // {
+  //     //     //   title: "Sistem Perancangan Penyelenggaraan (PMS)",
+  //     //     //   path: "/baik-pulih",
+  //     //     //   icon: "fluent:wrench-screwdriver-32-regular"
+  //     //     // },
+  //     //     // {
+  //     //     //   title: "Pengubahsuaian",
+  //     //     //   path: "/ubah-suai",
+  //     //     //   icon: "oui:app-upgrade-assistant"
+  //     //     // },
+  //     //   ]
+  //     // },
+  //     // {
+  //     //   "title": "Pengurusan Pembekal",
+  //     //   "icon": "ix:report-general",
+  //     //   "child": [
+  //     //     {
+  //     //       title: "Pembekal",
+  //     //       path: "/kapal",
+  //     //       icon: "lineicons:ship-1",
+  //     //     },
+  //     //     {        
+  //     //       title: "E-invois",
+  //     //       path: "/bot",
+  //     //       icon: "tabler:speedboat",
+  //     //     },
+  //     //   ]
+  //     // },
+  //     // {
+  //     //   "title": "Pengurusan Latihan",
+  //     //   "icon": "ix:report-general",
+  //     //   "child": [
+  //     //     {
+  //     //       title: "Latihan",
+  //     //       path: "/kapal",
+  //     //       icon: "lineicons:ship-1",
+  //     //     },
+  //     //     {        
+  //     //       title: "Permintaan Latihan",
+  //     //       path: "/bot",
+  //     //       icon: "tabler:speedboat",
+  //     //     },
+  //     //   ]
+  //     // },
+      
+  //     {
+  //       "title": "Laporan",
+  //       "icon": "ix:report-general",
+  //       "child": [
+  //         // {
+  //         //   "title": "OA",
+  //         //   "path": "/report/oa"
+  //         // },
+  //         // {
+  //         //   "title": "Krew",
+  //         //   "path": "/report/krew"
+  //         // },
+  //         // {
+  //         //   "title": "ROVA",
+  //         //   "path": "/report/rova"
+  //         // }
+  //         {
+  //           "title": "Kesiapsiagaan Aset Keseluruhan",
+  //           "path": "/report/kesiapansiagaan-aset-keseluruhan"
+  //         },
+  //         {
+  //           "title": "Kesiapsiagaan Aset Mengikut Maritim",
+  //           "path": "/report/kesiapansiagaan-aset-maritim"
+  //         },
+  //         {
+  //           "title": "Kesiapsiagaan Aset Mengikut Maritim Negeri",
+  //           "path": "/report/kesiapansiagaan-aset-maritim-negeri"
+  //         },
+  //         {
+  //           "title": "Kesiapsiagaan Aset Mengikut Jenis Pembaikan",
+  //           "path": "/report/kesiapansiagaan-aset-jenis-pembaikan"
+  //         },
+  //         {
+  //           "title": "Kesiapsiagaan Aset Mengikut Jenis",
+  //           "path": "/report/kesiapansiagaan-aset-jenis"
+  //         },
+  //         {
+  //           "title": "Laporan Kesiapsiagaan Aset ",
+  //           "path": "/report/kesiapansiagaan-aset"
+  //         },
+  //         {
+  //           "title": "Ringkasan",
+  //           "path": "/report/ringkasan"
+  //         },
+  //       ]
+  //     },
+  //   ],
+  // },
+  // {
+  //   header: "Pandangan Negeri",
+  //   description: "Pandangan Negeri",
+  //   child: [
+  //     {
+  //       title: "Papan Pemuka",
+  //       path: "/dashboard-negeri",
+  //       icon: "ic:outline-dashboard",
+  //       child: [],
+  //     },
+  //     {
+  //       title: "Kad Kerja",
+  //       path: "/kapal",
+  //     },
+  //   ],
+  // },
+  // {
+  //   header: "Pandangan Krew",
+  //   description: "Pandangan Krew",
+  //   child: [
+  //     {
+  //       title: "Papan Pemuka",
+  //       path: "/dashboard-krew",
+  //       icon: "ic:outline-dashboard",
+  //       child: [],
+  //     },
+  //     {
+  //       title: "Kad Kerja",
+  //       path: "/kapal",
+  //     },
+  //   ],
+  // },
+ 
 ];

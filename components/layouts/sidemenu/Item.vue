@@ -46,7 +46,7 @@ function activeMenu(routePath) {
       v-if="item.header"
       class="text-left font-normal text-xs mx-6 mt-5 mb-2"
     >
-      <span class="uppercase text-primary dark:text-primary">
+      <span class="uppercase text-white">
         {{ item.header ? item.header : "" }}
       </span>
       <p class="text-gray-500 dark:text-secondary">

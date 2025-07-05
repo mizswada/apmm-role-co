@@ -36,9 +36,17 @@ onMounted(() => {
         <div class="flex flex-auto gap-3 justify-center items-center h-[48px]">
           <img
             class="h-10 block"
-            src="@/assets/img/logo/logo-word-black-ui.svg"
+            src="@/assets/img/logo/apmm_logo_baru.png"
             alt=""
           />
+          <img
+            class="h-10 block"
+            src="@/assets/img/logo/LOGO_apmm.png"
+            alt=""
+          />
+          <!-- <span class="text-sm font-semibold">
+            e-Jutra
+          </span> -->
         </div>
       </nuxt-link>
     </div>
@@ -50,3 +58,10 @@ onMounted(() => {
     </NuxtScrollbar>
   </div>
 </template>
+
+<style scoped>
+.vertical-menu {
+  background-color: #1b233a !important;
+  color: white !important;
+}
+</style>

@@ -470,16 +470,16 @@ watch(
               @click="openFilter ? (openFilter = false) : (openFilter = true)"
             >
               <Icon
-                name="ic:outline-filter-alt"
+                name="mdi:magnify"
                 class="mr-0 md:mr-1"
                 size="1rem"
               />
-              <span class="hidden sm:block">Filter</span>
+              <span class="hidden sm:block">Cari</span>
             </rs-button>
           </div>
         </div>
         <div class="flex justify-center items-center gap-x-2">
-          <span class="text-[rgb(var(--text-color))]">Result per page:</span>
+          <span class="text-[rgb(var(--text-color))]">Paparan Per Halaman :</span>
           <FormKit
             type="select"
             v-model="pageSize"
@@ -720,8 +720,8 @@ watch(
     <div v-if="advanced" class="table-footer">
       <div class="flex justify-center items-center gap-x-2">
         <span class="text-sm text-[rgb(var(--text-color))] hidden md:block"
-          >Showing {{ pageSize * currentPage - pageSize + 1 }} to
-          {{ pageSize * currentPage }} of {{ totalEntries }} entries</span
+          >Paparan {{ pageSize * currentPage - pageSize + 1 }} hingga
+          {{ pageSize * currentPage }} daripada {{ totalEntries }} rekod</span
         >
       </div>
       <div class="table-footer-page">

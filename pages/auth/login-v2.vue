@@ -11,43 +11,51 @@ definePageMeta({
   >
     <div class="w-full md:w-3/4 lg:w-1/2 xl:w-2/6">
       <rs-card class="h-screen md:h-auto px-10 md:px-16 py-12 md:py-20 mb-0">
-        <h3 class="mb-4">Login</h3>
-        <p class="mb-6">Welcome to corradUI. Please login to continue.</p>
+        <div class="flex justify-center items-center gap-4 mb-6 bg-[#1b233a] p-4 rounded-lg">
+          <img src="@/assets/img/logo/apmm_logo_baru.png" alt="APMM Logo Baru" class="w-32 h-auto object-contain" />
+          <img src="@/assets/img/logo/LOGO_apmm.png" alt="APMM Logo" class="w-32 h-auto object-contain" />
+        </div>
+        <h3 class="mb-4">Log Masuk</h3>
+        <p class="mb-6">
+          Selamat Datang ke <br>
+          SISTEM PENGURUSAN DAN PEMANTAUAN ASET KEJURUTERAAN MARIN APMM <br> (E-JUTRA).<br>
+          Sila log masuk untuk meneruskan.</p>
         <div class="grid grid-cols-2">
           <FormKit
             type="text"
-            label="Username"
+            label="Nama Pengguna"
             outer-class="col-span-2"
             label-class="text-left"
           />
           <FormKit
             type="password"
-            label="Password"
+            label="Kata Laluan"
             outer-class="col-span-2"
             label-class="text-left"
           />
-          <FormKit type="checkbox" label="Remember Me" />
+          <FormKit type="checkbox" label="Ingat Saya" />
           <NuxtLink
             class="flex items-center justify-end h-5 mt-1 text-primary hover:underline"
             to="/auth/forgot-password-v2"
-            >Forgot Password?</NuxtLink
+            >Lupa Kata Laluan?</NuxtLink
           >
-          <NuxtLink to="/" class="col-span-2">
-            <FormKit type="button" input-class="w-full"> Sign In </FormKit>
+          <NuxtLink to="/dashboard" class="col-span-2">
+            <FormKit type="button" input-class="w-full"> Log Masuk</FormKit>
           </NuxtLink>
-          <rs-button
+          
+          <!-- <rs-button
             class="w-full col-span-2 !bg-white !text-inherit shadow-md"
           >
             <img class="w-5 mr-2" src="@/assets/img/brand/google-logo.svg" />
-            Sign In with Google
-          </rs-button>
+            Log Masuk dengan Google
+          </rs-button> -->
         </div>
-        <p class="mt-3 text-center">
-          Don't have an account?
+        <!-- <p class="mt-3 text-center">
+          Tiada akaun?
           <NuxtLink to="/auth/register-v2" class="text-primary hover:underline"
-            >Sign Up</NuxtLink
+            >Daftar</NuxtLink
           >
-        </p>
+        </p> -->
       </rs-card>
     </div>
   </div>
