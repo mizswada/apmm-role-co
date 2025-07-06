@@ -39,7 +39,7 @@ definePageMeta({
             to="/auth/forgot-password-v2"
             >Lupa Kata Laluan?</NuxtLink
           >
-          <NuxtLink to="/dashboard" class="col-span-2">
+          <NuxtLink to="/new/dashboard" class="col-span-2">
             <FormKit type="button" input-class="w-full"> Log Masuk</FormKit>
           </NuxtLink>
           

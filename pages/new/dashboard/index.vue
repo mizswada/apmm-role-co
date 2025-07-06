@@ -9,7 +9,7 @@
                 </div>           
                 <rs-table
                     :data="tableData"
-                    :field="['bil', 'idJutra', 'namaPemohon', 'status', 'tindakan']"
+                    :field="['bil', 'idJutra', 'namaPemohon', 'status']"
                     :options="{
                         variant: 'default',
                         striped: true,
@@ -28,20 +28,7 @@
                         
                     </template>
                     
-                    <template v-slot:tindakan="row">
-                        <div class="flex gap-2">
-                            <button @click="$router.push(`/lihatTugasan`)" class="text-blue-600 hover:text-blue-800">
-                                <Icon class="text-primary" name="weui:eyes-on-outlined"></Icon>
-                            </button>
-                            <!-- <button @click="$router.push(`/kemaskiniTugasan`)" class="text-blue-600 hover:text-blue-800">
-                                <Icon class="text-primary" name="heroicons:pencil-square-16-solid"></Icon>
-                            </button> -->
-                            <!-- <rs-button >
-                                <Icon class="text-primary" name="weui:eyes-on-outlined"></Icon>
-                            </rs-button> -->
-                            <!-- <rs-button variant="warning" size="sm">Kemaskini</rs-button> -->
-                        </div>
-                    </template>
+                    
                 </rs-table>
             </div>
         </div>
