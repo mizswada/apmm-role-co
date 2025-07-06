@@ -45,11 +45,11 @@ export default [
             icon: "ri:ship-line",
             path: "/new/pembaikan-vesel/rova",
           },
-          {
-            title: "Planning Maintenance Schedule",
-            icon: "ri:ship-line",
-            path: "/new/pembaikan-vesel/pms",
-          },
+          // {
+          //   title: "Planning Maintenance Schedule",
+          //   icon: "ri:ship-line",
+          //   path: "/new/pembaikan-vesel/pms",
+          // },
           
         ],
       },
